@@ -9,13 +9,6 @@
     position: relative;
 }
 
-.logo {
-    width: 50px;
-    height: 50px;
-    border-radius: 100px;
-
-}
-
 .logos {
     display: flex;
     flex-direction: row;
@@ -24,8 +17,21 @@
     gap: 20px;
     position: absolute;
     top: 100px;
-    left: 200px;
+    left: 70px;
+    
 }
+
+.logos h1 {
+    font-size: 20px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+
+}
+
 
 .contenido {
     display: flex;
@@ -82,12 +88,9 @@
 
     .logos {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        position: absolute;
-        top: 40px;
-        left: 45px;
     }
 
     .contenido {
@@ -96,7 +99,7 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        margin-top: 500px;
+        margin-top: 700px;
         padding: 5px;
     }
     
