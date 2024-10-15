@@ -9,7 +9,7 @@ import What from '../../../public/whatsaaps.svg'
 function inicio() {
   return (
     <div  className={styles.contenedor}>
-        <div className={styles.logos}><Image  className={styles.logo} src={Logo} alt='logo'></Image><h1>|| www.agustinescuderoweb.com ||</h1></div>
+        <div className={styles.logos}><Image  className={styles.logo} src={Logo} alt='logo'></Image></div>
         <div className={styles.contenido}>
         <h1>MAXIMIZA TUS OPORTUNIDADES DE VENTA Y EXPANDE TU ALCANCE</h1>
         <h2>Impulsa tu negocio con una presencia online efectiva</h2>
