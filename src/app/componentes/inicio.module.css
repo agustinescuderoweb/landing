@@ -1,0 +1,114 @@
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: whitesmoke;
+    gap: 300px;
+    position: relative;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+}
+
+.contenido h1 {
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.contenido h2 {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.contenido button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid white;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: #06063f;
+    box-shadow: 0px 0px 10px white;
+    border: 1px solid black;
+}
+
+.contenido span {
+    padding: 5px;
+}
+
+@media  screen and (max-width: 768px) {
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: whitesmoke;
+        gap: 10px;
+    }
+
+    .logos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 40px;
+        left: 45px;
+    }
+
+    .contenido {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 400px;
+        padding: 5px;
+    }
+    
+    .contenido h1 {
+        justify-content: center;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        padding: 10px;
+    }
+
+    .animacion {
+        padding: 30px;
+    }
+}
