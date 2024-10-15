@@ -8,9 +8,9 @@ import Youtube from '../../../public/youtube.svg'
 function redes() {
   return (
     <div className={styles.contenedor}>
-         <a href='https://www.instagram.com/agustinescuderoweb/'><Image src={Instagram}></Image></a>
-         <a href='https://wa.link/elp2e3'><Image src={Whatsaap}></Image></a>
-         <a href='https://www.youtube.com/@agustinescuderoweb'><Image src={Youtube}></Image></a>
+         <a href='https://www.instagram.com/agustinescuderoweb/'><Image src={Instagram} alt='instagra'></Image></a>
+         <a href='https://wa.link/elp2e3'><Image src={Whatsaap} alt='whatsapp'></Image></a>
+         <a href='https://www.youtube.com/@agustinescuderoweb'><Image src={Youtube} alt='youtube'></Image></a>
     </div>
   )
 }
